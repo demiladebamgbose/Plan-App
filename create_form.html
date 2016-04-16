@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Create Tasks</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<img src= "images.jpg" alt="logo">
+		<h2> NEW TASK </h2>
+	</div>	
+	<div class="nav">
+		<div class= "buttonHolder">
+			<a href="create_form.html">Create</a><br>
+		</div>
+		View<br>
+		Add<br>                                                                                                          
+		Delete<br>
+	</div>
+	<div class= "container">
+		<div class= "section"> 
+			<form>
+					Choose category:<br>
+					<input list="categories" name="tasks">
+					<datalist id="tasks">
+						<option value="Birthday">
+						<option value ="Event">
+						<option value="Task Remainder">
+					</datalist><br>
+					Task Name:<br>
+					<input type="text" name="new_task"></input><br>
+					Description:<br>
+					<textarea name="description" rows="4"></textarea><br>
+					Date:<br>
+					<input></input>
+			</form>
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
