@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel='stylesheet' type='text/css' href='style.css'> 
+<link rel='stylesheet' type='text/css' href='css/style.css'> 
 </head>
 
 <body>
 	<div id= "index">
-		<h1>WELCOME! </h1>
-		<h3>PLAN TOUR DAY</h3>
-		<img id="icon" src='images.jpg' alt='icon'>
-		<a href='webpage.html'> Home </a>
+		<h1>PLAN APP</h1>
+		<div id="blankspace"></div>
+		<h3>PLAN DAY TO DAY</h3>
+		<span>
+			<img id="icon" src='img\images.jpg' alt='icon'>
+		<!-- <a href='webpage.html'> Home </a> -->
+			<button onclick="showLogIn()" id="btnlogin">LOG IN</button>
+			<button onclick="showSignUp()" id="btnsign">SIGN UP</button>
+		</span>
+
+		<div id= 'login'>
+			<form>
+				Email Address:   
+				<input type="text"><br><hr>
+				Password:   
+				<input type="text"><br>
+				<button onclick ="showHome()" name="login"> Log In </button>
+			</form>
+		</div>
+		<div id= 'signup'>
+			<form>
+				Your Name:   
+				<input type="text" name= "Name" value="your name" id = name><br><hr>
+				Email Address:   
+				<input type="text"><br><hr>
+				Password:   
+				<input type="password"><br><hr>
+				Confirm Password:   
+				<input type="password"><br>
+				<button onclick ="showHome()" name="login"> Sign Up </button>
+			</form>
+		</div>
+		<a href="home.html">home</a>
 	</div>
-	<script src='script.js'></script>
+
+	<div id="footer">
+		<p>Plan App is created, written and maintained by Lhade and a team of swell peole. It is buitlt on <bold>Word,</bold>hosted by .... \<p>
+		
+	</div>
+
+	<script src='js/script.js'></script>
 </body>
 </html>

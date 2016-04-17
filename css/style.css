@@ -1,0 +1,126 @@
+body {
+	background: url(Koala.jpg);
+	font-family: courier;
+	font-weight: bolder;
+}
+
+.header {
+	background-color: #de9193;
+	padding:25px;
+	color: black;
+	border: 5px solid #eee;
+	text-align: right;
+	border-radius:10px;
+}
+.nav {
+	line-height: 30px;
+	background-color: white;
+	float: left;
+	width: 150px;
+	padding: 5px;
+	border:5px solid #eee;
+	border-radius: 10px;
+}
+#month{
+	background-color: white;
+	border:5px solid #eee;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	/*clear: both;*/
+	padding: 5px;
+	height: 100px;
+}
+.day {
+	border: 3px solid #eeeeee;
+	margin: 25px;
+	padding: 25px;
+	border-radius: 20px;
+	height: 35px;
+	width: 70px;
+	text-align: center;
+	background-color: #de9193;
+
+}
+tr{
+	border: 3px solid #eee;
+	margin: 25px;
+	padding: 25px;
+	height: 70px;
+	background-color: white;
+}
+table{
+	margin-top: 25px;
+	margin-bottom:25px;
+}
+td{
+	border-radius: 3px;
+	text-align: center;
+}
+
+
+.buttonHolder{
+	border-to: 5px solid #eee;
+	margin: 15px;
+	padding: 10px;
+	background-color: white;
+	color:blue; 
+}
+#index {
+	margin: 50px;
+	background-color: #eeeeee;
+	width: 800px;
+	border: 1px solid #b196a6;
+	padding: 50px;
+	border-radius: 15px;
+}
+#icon{
+	height:200px;
+	width: 200px;
+	display: inline;
+}
+img{
+	height:40px;
+	width: 40px;
+	left:-10%;
+	display:inline;
+}
+h1{
+	font-family:ultra;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing:10px;
+	color:#ac2075; 
+	border-bottom: 3px solid black
+}
+h2{
+	display: inline;
+}
+button{
+	background-color: #de9193;
+	display: inline;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	border-radius: 4px;
+}
+#signup, #login{
+	display: none;
+	height:200px;
+	text-align: center;
+	padding-top: 50px;
+}
+input{
+	border:none; 
+	height: 30px
+}
+#blankspace{
+	background-color: #de9193;
+	height: 50px;
+	width:100%;
+}
