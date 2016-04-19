@@ -13,7 +13,7 @@
 			<img id="icon" src='img\images.jpg' alt='icon'>
 		<!-- <a href='webpage.html'> Home </a> -->
 			<button onclick="showLogIn()" id="btnlogin">LOG IN</button>
-			<button onclick="showSignUp()" id="btnsign">SIGN UP</button>
+			<button onclick="showSignUp()" id="btnsignup">SIGN UP</button>
 		</span>
 
 		<div id= 'login'>
@@ -21,24 +21,24 @@
 				Email Address:   
 				<input type="text"><br><hr>
 				Password:   
-				<input type="text"><br>
-				<button onclick ="showHome()" name="login"> Log In </button>
+				<input type="text"><br><hr>
+				<div class="btn"><a href='home.html'> LOG IN</a></div>
 			</form>
 		</div>
 		<div id= 'signup'>
 			<form>
 				Your Name:   
-				<input type="text" name= "Name" value="your name" id = name><br><hr>
+				<input type="text" name= "Name" value="your name" id = "name"><br><hr>
 				Email Address:   
 				<input type="text"><br><hr>
 				Password:   
 				<input type="password"><br><hr>
 				Confirm Password:   
-				<input type="password"><br>
-				<button onclick ="showHome()" name="login"> Sign Up </button>
+				<input type="password"><br><hr>
+				<div class="btn"><a href='home.html'> SIGN UP </a></div>
 			</form>
 		</div>
-		<a href="home.html">home</a>
+		
 	</div>
 
 	<div id="footer">

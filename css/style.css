@@ -32,7 +32,7 @@ body {
 	background-color: black;
 	color: white;
 	text-align: center;
-	/*clear: both;*/
+	clear: both;
 	padding: 5px;
 	height: 100px;
 }
@@ -70,6 +70,29 @@ td{
 	padding: 10px;
 	background-color: white;
 	color:blue; 
+}
+textarea{
+	border: none;
+	height: 30px;
+	width:400px;
+}
+select{
+	font-family: courier;
+	font-weight: bolder;
+	font-size:16px; 
+	height: 30px;
+	width:150px;
+	border: none;
+}
+#form_fit{
+	text-align: center;
+	margin: 50px;
+	background-color: #eeeeee;
+	width: 600px;
+	float:right;
+	border: 1px solid #b196a6;
+	padding: 50px;
+	border-radius: 15px;
 }
 #index {
 	margin: 50px;
@@ -111,8 +134,8 @@ button{
 }
 #signup, #login{
 	display: none;
-	height:200px;
 	text-align: center;
+	vertical-align: center;
 	padding-top: 50px;
 }
 input{
@@ -123,4 +146,20 @@ input{
 	background-color: #de9193;
 	height: 50px;
 	width:100%;
+}
+a{
+	text-decoration: none;
+	font-family: courier; 
+	color: black;
+}
+.btn{
+	height: 1px;
+	background-color: #de9193;
+	padding: 25px;
+	text-align: center;
+	border: 2px solid #eee;
+	font-family: courier; 
+
+}.container{
+	text-align: center;
 }
