@@ -16,4 +16,25 @@ function showSignUp(){
 }
 
 
-var namefield= getElementById('name')
+var namefield= document.getElementById("yourname")
+namefield.onblur = function(){
+	if(namefield.value==""){
+		namefield.value="your name";
+	}
+}
+	namefield.onfocus = function(){
+	if(namefield.value=="your name"){
+		namefield.value="";
+	}
+}
+
+var form = document.getElementById("formlogin");
+form.onsubmit = function(){
+	var emailfield = document.getElementById("email");
+	if (emailfield.value=""){
+		document.getElementById("errormessage").innerHTML="Email cannot be empty!";
+	}
+	else{
+		document.getElementById("errormessage").innerHTML="";
+	}
+}

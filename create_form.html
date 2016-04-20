@@ -6,21 +6,15 @@
 </head>
 <body>
 	<div class="header">
+		<button id="logout">LOG OUT</button>
 		<img src= "img/images.jpg" alt="logo" >
 		<h2> NEW TASK </h2>
 	</div>	
-	<div class="nav">
-		<div class= "buttonHolder">
-			<a href="create_form.html">Create</a><br>
-		</div>
-		View<br>
-		Add<br>                                                                                                          
-		Delete<br>
-	</div>
 	
 	<div id= "form_fit"> 
-		<h2>NEW ENTRY</h2><br><hr>
-			<form name="create task">
+		<span id="error message" ></span>
+		<h2>ADD NEW ENTRY</h2><br><hr>
+			<form name="create task" action="home.html">
 				Choose category:
 				<select name="task_category" >
 					<option value="Birthday">Birthday</option>
@@ -33,9 +27,11 @@
 				Description:<br><hr>
 					<textarea name="description" rows="4"></textarea><br>
 				Date:<br><hr>
-					<input></input>
+					<input></input><br><hr>
+
+				<button id= "add_btn">ADD ENTRY</button>
 			</form>
 	</div>
-<script src="js/script.js"></script>
+	<script src='js/script.js'></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-	background: url(Koala.jpg);
+	background: white;
 	font-family: courier;
 	font-weight: bolder;
 }
@@ -57,10 +57,12 @@ tr{
 table{
 	margin-top: 25px;
 	margin-bottom:25px;
+	background-color: #eee;
 }
 td{
 	border-radius: 3px;
 	text-align: center;
+	color: darkgrey;
 }
 
 
@@ -86,10 +88,10 @@ select{
 }
 #form_fit{
 	text-align: center;
-	margin: 50px;
+	margin: 100px;
 	background-color: #eeeeee;
 	width: 600px;
-	float:right;
+	float: right;
 	border: 1px solid #b196a6;
 	padding: 50px;
 	border-radius: 15px;
@@ -124,7 +126,7 @@ h1{
 h2{
 	display: inline;
 }
-button{
+#submitbtn, button{
 	background-color: #de9193;
 	display: inline;
 	height: 40px;
@@ -152,14 +154,11 @@ a{
 	font-family: courier; 
 	color: black;
 }
-.btn{
-	height: 1px;
-	background-color: #de9193;
-	padding: 25px;
-	text-align: center;
-	border: 2px solid #eee;
-	font-family: courier; 
 
-}.container{
+.container{
 	text-align: center;
+}
+#logout{
+	float: left;
+	display: inline;
 }

@@ -11,31 +11,30 @@
 		<h3>PLAN DAY TO DAY</h3>
 		<span>
 			<img id="icon" src='img\images.jpg' alt='icon'>
-		<!-- <a href='webpage.html'> Home </a> -->
 			<button onclick="showLogIn()" id="btnlogin">LOG IN</button>
 			<button onclick="showSignUp()" id="btnsignup">SIGN UP</button>
 		</span>
-
+		<p><span id="errormessage" ></span><p>
 		<div id= 'login'>
-			<form>
+			<form name="formlogin" id="formlogin" method="post" action="home.html" onsubmit="false" >
 				Email Address:   
-				<input type="text"><br><hr>
+				<input type="text" name="email" id="email"><br><hr>
 				Password:   
 				<input type="text"><br><hr>
-				<div class="btn"><a href='home.html'> LOG IN</a></div>
+				<input type="submit" name=" submit1" id="submitbtn" value= "LOG IN"></input>
 			</form>
 		</div>
 		<div id= 'signup'>
-			<form>
+			<form id="formsignup" method="post" action="create_form.html">
 				Your Name:   
-				<input type="text" name= "Name" value="your name" id = "name"><br><hr>
+				<input type="text" onfocus="focus()" onblur="blur()"  value="your name" id = "yourname"><br><hr>
 				Email Address:   
-				<input type="text"><br><hr>
+				<input type="text" id=""><br><hr>
 				Password:   
 				<input type="password"><br><hr>
 				Confirm Password:   
 				<input type="password"><br><hr>
-				<div class="btn"><a href='home.html'> SIGN UP </a></div>
+				<input type="submit" name=" submit2" id="submitbtn" value= "SIGN UP"></input>
 			</form>
 		</div>
 		
